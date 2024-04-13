@@ -19,3 +19,5 @@ C:\Windows\system32>whoami
 whoami
 nt authority\system 
 ```
+
+## WE ARE DONE WITH PRINTSPOOFER BINARY HOPE U ENJOYED
