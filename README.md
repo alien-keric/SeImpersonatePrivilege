@@ -1,6 +1,6 @@
 ### SeImpersonatePrivilege
 How to exploit SeImpersonatePrivilege with different ways, it is also gud to check what version of operating system were dealing with
-``
+```
 C:\Users\Public\Desktop>systeminfo | findstr /B /C:"Host Name" /C:"OS Name" /C:"OS Version" /C:"System Type" /C:"Hotfix(s)"
 systeminfo | findstr /B /C:"Host Name" /C:"OS Name" /C:"OS Version" /C:"System Type" /C:"Hotfix(s)"
 Host Name:                 REMOTE
