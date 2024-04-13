@@ -35,7 +35,7 @@ C:\Users\Public\desktop>
 
 From the above scenarion there many ways you can try to exploit this but actually i am making this one so i can easy simplfy my way in with this easy way to become administrator.
 
-## first thing were gonna need the following into our target machine 
+## first thing were gonna need is transfering the following binaries into our target machine 
 1. nc.exe (specific for windows)
 2. RoguePotato.exe
 3. JuicyPotato
