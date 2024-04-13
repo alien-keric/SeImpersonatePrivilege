@@ -64,4 +64,19 @@ dir
 ```
 Everything required is available here no need to search for them online anymore, just this repostory is enough to go for root/administrator
 
+# references
+```
+The following are the references i have used to create everything here
+
+1.https://github.com/itm4n/PrintSpoofer/releases
+2. https://github.com/ohpe/juicy-potato
+3. https://github.com/antonioCoco/RoguePotato/tree/master/RoguePotato
+4. https://github.com/k4sth4/Rogue-Potato/blob/main/RoguePotato.exe
+5. https://juggernaut-sec.com/seimpersonateprivilege/
+6. https://github.com/BeichenDream/GodPotato
+7. https://www.hackingarticles.in/windows-privilege-escalation-seimpersonateprivilege/
+8. https://github.com/antonioCoco/RoguePotato/tree/master
+9. https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation/privilege-escalation-abusing-tokens
+
+```
 
