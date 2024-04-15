@@ -11,7 +11,7 @@ System Type:               x64-based PC
 Hotfix(s):                 4 Hotfix(s) Installed.
 ```
 
-### Assume you have exploit a windows operating system either a AD or normal windows machine successfull got access and once you run the **whoami/priv** you find that you can exploit to **nt authority\system**  throught tokenImpersonate, there many ways do this but when doing pentesting, in this blog am going to upload every technique i use when i meet this enviroment when approaching a target.
+Assume you have exploit a windows operating system either a AD or normal windows machine successfull got access and once you run the **whoami/priv** you find that you can exploit to **nt authority\system**  throught tokenImpersonate, there many ways do this but when doing pentesting, in this blog am going to upload every technique i use when i meet this enviroment when approaching a target.
 
 ## Take an example
 ```
