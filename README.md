@@ -85,4 +85,4 @@ The following are the references i have used to create everything here
 ```
 
 ## <a name="RoguePotato documentation"> </a>RoguePotato documentation
-- [RoguePotato.md](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/RoguePotato.md) - 🖥️ roguepotato binary documentation . **By [@alien-keric](https://github.com/alien-keric)**
+- [RoguePotato.md](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/RoguePotato.md) - 🖥️ roguepotato binary documentation . 
