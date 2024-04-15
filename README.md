@@ -37,9 +37,9 @@ C:\Users\Public\desktop>
 From the above scenarion there many ways you can try to exploit this but actually i am making this one so i can easy simplfy my way in with this easy way to become administrator.
 
 ## first thing were gonna need is transfering the following binaries into our target machine 
-1. nc.exe (specific for windows) - [windows netcat](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/nc.exe) - 🖥️ click the link to download the binary download 
+1. nc.exe (specific for windows) - [windows netcat](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/nc.exe) - 🖥️ click the link to download the binary
 2. RoguePotato.exe - [RoguePotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/RoguePotato.md) - 🖥️ roguepotato binary usage And you can download it from here [binary](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/rogue.exe) 
-3. JuicyPotato - [JuicyPotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/JuicyPotato.md) - 🖥️ JuicyPotato binary usage And you can download the from here [binary](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/JuicyPotato.exe)
+3. JuicyPotato - [JuicyPotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/JuicyPotato.md) - 🖥️ JuicyPotato binary usage And you can download it from here [binary](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/JuicyPotato.exe)
 4. payload from msfvenom - [documentation](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/payload.md) - 🖥️ msfvenom usage 
 5. PrintSpoofer - [PrintSpoofer.md](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/PrintSpoofer.md) - 🖥️ PrintSpoofer binary usage And you can download the binary from here [binary](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/spoofer.exe)
 6. GodPotato - [GodPotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/Godpotato.md) - 🖥️ GodPotato binary usage  And you can download the binary from here [binary](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/GodPotato-NET4.exe)
