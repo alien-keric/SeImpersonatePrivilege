@@ -63,7 +63,7 @@ dir
 02/20/2020  03:14 AM             1,191 TeamViewer 7.lnk
                7 File(s)        601,801 bytes
 
-[[RoguePotato.md]]         3 Dir(s)  13,362,515,968 bytes free
+        3 Dir(s)  13,362,515,968 bytes free
 ```
 Everything required is available here no need to search for them online anymore, just this repostory is enough to go for root/administrator
 
