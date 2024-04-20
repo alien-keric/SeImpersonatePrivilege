@@ -82,6 +82,6 @@ The following are the references i have used to create everything here
 7. https://www.hackingarticles.in/windows-privilege-escalation-seimpersonateprivilege/
 8. https://github.com/antonioCoco/RoguePotato/tree/master
 9. https://book.hacktricks.xyz/windows-hardening/windows-local-privilege-escalation/privilege-escalation-abusing-tokens
-
+10.https://decoder.cloud/
 ```
 
